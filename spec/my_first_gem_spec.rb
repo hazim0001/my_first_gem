@@ -5,7 +5,10 @@ RSpec.describe MyFirstGem do
     expect(MyFirstGem::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "gets the precentage of a number" do
+    expect(
+      (1..100).to_a.sample.percent_of((1..999999).to_a.sample)
+    ).not_to be nil || 0
   end
+
 end
