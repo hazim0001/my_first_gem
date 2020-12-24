@@ -9,5 +9,5 @@ Style/StringLiteralsInInterpolation:
 Layout/LineLength:
   Max: 120
 
- Documentation:
-    Enabled: false
+Documentation:
+  Enabled: false
