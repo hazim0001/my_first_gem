@@ -15,7 +15,7 @@ module MyFirstGem
   end
 
   def quarter_of(number)
-    number / 4
+    number / 4.0
   end
 
   def km_in_mile
@@ -59,13 +59,3 @@ end
 class Object
   include MyFirstGem
 end
-
-
-puts 2.5.percent_of(200)
-puts half_of(100)
-puts quarter_of(100)
-puts 50.km_in_mile
-puts 50.mile_in_km
-puts 1.m_in_inch
-puts 1.5.ft_in_cm
-
