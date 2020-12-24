@@ -49,7 +49,6 @@ module MyFirstGem
   def cm_in_ft
     (self / 30.48)
   end
-
 end
 
 class Integer
