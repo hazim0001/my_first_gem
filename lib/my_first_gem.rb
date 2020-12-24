@@ -1,4 +1,4 @@
- # frozen_string_literal: true
+# frozen_string_literal: true
 
 require_relative "my_first_gem/version"
 
@@ -7,7 +7,7 @@ module MyFirstGem
   # Your code goes here...
 
   def percent_of(number)
-    (self/100.0) * number
+    (self / 100.0) * number
   end
 
   def half_of(number)
