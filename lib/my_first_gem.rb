@@ -39,7 +39,7 @@ module MyFirstGem
   end
 
   def cm_in_inch
-    (self / 2.54)
+    (self / 2.54).round(3)
   end
 
   def ft_in_cm
@@ -47,14 +47,31 @@ module MyFirstGem
   end
 
   def cm_in_ft
-    (self / 30.48)
+    (self / 30.48).round(3)
   end
+
+  # Meter to feet - Feet To meter
+  # feet to inches - inches to feet
+  # inches to cm -  cm to inches
+  # inches to mm - mm to inches
+  # meter to inches - inches to meters
+  # yard to feet and vise versa
+
+  # TEMP CONVERSION
+  # Celsius to Fahrenheit and vise versa
+  # boiling point for both
+  # freezing point for both
+  # celsius to kelvin and vise versa
+  # fahrenheit to kelvin and vise versa
+  #
+
+  # WEIGHT CONVERSION
+  # kilogram to pounds and vise versa
+  # kilogram to stones and vise versa
+  # grams to ounces and vise versa
+  # liter to kilogram and vise versa
 end
 
 class Integer
-  include MyFirstGem
-end
-
-class Object
   include MyFirstGem
 end
